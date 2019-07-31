@@ -1,2 +1,2 @@
 # jsCodeChallenges
-Collection of javascript coding challenges and projects that I'm using to learn!
+Collection of JavaScript coding challenges and projects that I'm using to learn!
