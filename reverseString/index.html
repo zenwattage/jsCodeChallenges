@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="resultString"></div>
+    <script>
+        let splitString = "Your mom jumps over the lazy dog";
+        // expected result: ruoY mom spmuj revo eht yzal god
+
+        function reverseString(str) {
+            let resultString = str.split(' ').map(placeholderChar => placeholderChar.split('').reverse().join('')).join(' ');
+            return resultString;
+        }
+
+        document.getElementById('resultString').innerHTML = reverseString(splitString);
+    </script>
+</body>
+
+</html>
