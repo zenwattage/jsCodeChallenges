@@ -8,16 +8,6 @@ g.greet().greet(true);
 g.greet().setLang('en').greet(true);
 g.greet().setLang('es').greet(true);
 
-const array = [
-    ["one","two","three"],
-    ["four","five","six"],
-    ["seven","eight","nine"],
-];
-
-console.log(array[1]);
-
-
-
 // use our object on the click of the login button
 $('#login').click(function() {
     //create new Greetr object - pretending we know the name
